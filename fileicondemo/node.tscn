@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://b15rwfn0pihrw"]
+
+[ext_resource type="Script" path="res://node.gd" id="1_m5ii0"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_m5ii0")
+
+[node name="Button" type="Button" parent="."]
+custom_minimum_size = Vector2(100, 100)
+offset_right = 8.0
+offset_bottom = 8.0
+text = "关联"
+
+[node name="Button2" type="Button" parent="."]
+custom_minimum_size = Vector2(100, 100)
+offset_left = 216.0
+offset_top = 2.0
+offset_right = 316.0
+offset_bottom = 102.0
+text = "取消关联"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
