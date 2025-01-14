@@ -16,3 +16,4 @@ When associating ICONS with file types:You need to open FileIconRegister.bat and
 When disassociating:
 You need to open DeleteFileIcon.bat and change the part in the red box in the image below
 And restart the computer.
+![DeleteFileIcon](https://github.com/user-attachments/assets/2cecc65b-6533-4cac-a0ca-c95a2980a237)
